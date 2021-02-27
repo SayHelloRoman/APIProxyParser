@@ -6,4 +6,4 @@
 
 ### Then open a console in the server directory and type ``uvicorn main: app --reload``
 
-### You also need to install modules to work:\ ``requests`` ``bs4`` ``fastapi`` ``uvicorn[standard]``
+### You also need to install modules to work: \ ``requests`` ``bs4`` ``fastapi`` ``uvicorn[standard]``
