@@ -6,4 +6,12 @@
 
 ### Then open a console in the server directory and type ``uvicorn main: app --reload``
 
-### You also need to install modules to work: ```pip install requests\ pip install bs4\ pip install fastapi\```
+### You also need to install modules to work:
+
+### ``pip install requests``
+
+### ``pip install bs4``
+
+### ``pip install fastapi``
+
+### ``pip install uvicorn[standard]``
