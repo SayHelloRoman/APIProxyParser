@@ -7,6 +7,7 @@ import uuid
 
 DateBase = DB("DateBase/BD.pydb")
 
+
 def check(IP_PORT):
 	record = {
 		"_id" : int(uuid.uuid4()),
@@ -20,7 +21,6 @@ def check(IP_PORT):
 		"https": f"{IP_PORT[0]}:{IP_PORT[1]}",
 		"http": f"{IP_PORT[0]}:{IP_PORT[1]}"
 	}
-
 
 	try:
 		start = time()
@@ -40,5 +40,6 @@ def check(IP_PORT):
 
 
 headers = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36"}
+
 for i in parsing():
 	Thread(target=check, args=(i,)).start()
