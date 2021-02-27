@@ -8,10 +8,10 @@
 
 ### You also need to install modules to work:
 
-### ``pip install requests``
+#### ``pip install requests``
 
-### ``pip install bs4``
+#### ``pip install bs4``
 
-### ``pip install fastapi``
+#### ``pip install fastapi``
 
-### ``pip install uvicorn[standard]``
+#### ``pip install uvicorn[standard]``
