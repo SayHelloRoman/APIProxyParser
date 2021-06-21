@@ -5,7 +5,7 @@ from time import time
 import requests
 import uuid
 
-DateBase = DB("DateBase/BD.pydb")
+DateBase = DB("ApiProxyParser/DateBase/BD.pydb")
 
 
 def check(IP_PORT):
